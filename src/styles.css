@@ -1,0 +1,24 @@
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 0;
+}
+div {
+  background-color: #e6e2d3;
+  padding: 40px 0 0 0;
+}
+.icon {
+  display: flex;
+  color: #7e4a35;
+  font-size: 40px;
+
+  justify-content: space-evenly;
+}
