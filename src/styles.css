@@ -29,6 +29,20 @@ h5 {
   margin-top: 10px;
 }
 
+p {
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 10px 0 10px 0;
+  flex: 1;
+  color: var(--primary-color);
+}
+
+img {
+  box-shadow: var(--box-shadow);
+}
+
 .container-side {
   margin: 0 auto;
   background: var(--screen-gradient);
@@ -40,6 +54,7 @@ h5 {
   margin: 30px 0;
   justify-content: center;
 }
+
 .link {
   margin: 20px;
   margin-top: 5px;
@@ -49,24 +64,13 @@ h5 {
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
 }
+
 .project-description {
   padding: 100px 0 40px 0;
-}
-p {
-  padding: 0;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-  margin: 10px 0 10px 0;
-  flex: 1;
-  color: var(--primary-color);
 }
 
 .p-text {
   text-indent: 40px;
-}
-img {
-  box-shadow: var(--box-shadow);
 }
 
 .app {
@@ -74,6 +78,7 @@ img {
   margin-top: 5px;
   justify-content: center;
 }
+
 .button-launch {
   margin: 20px;
   border-radius: 4px;
@@ -84,9 +89,30 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
 .button-launch:hover {
   background: var(--primary-color);
   color: white;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  color: #7e4a35;
+  font-size: 60px;
+  justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 #contact {
@@ -98,6 +124,7 @@ img {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 @media (max-width: 991px) {
   h1 {
     font-size: 60px;
