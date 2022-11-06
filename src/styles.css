@@ -8,11 +8,7 @@
 h1 {
   font-size: 96px;
 }
-@media (max-width: 991px) {
-  h1 {
-    font-size: 60px;
-  }
-}
+
 h2 {
   font-size: 48px;
 }
@@ -26,15 +22,22 @@ h3 {
   text-align: center;
   margin: 0;
 }
+h5 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 30px;
+  margin-top: 10px;
+}
+
 .container-side {
   margin: 0 auto;
   background: var(--screen-gradient);
-  padding: 160px 20px;
+  padding: 20px 0;
 }
 
 .button-link {
   display: flex;
-  margin-top: 30px;
+  margin: 30px 0;
   justify-content: center;
 }
 .link {
@@ -46,6 +49,46 @@ h3 {
   text-transform: capitalize;
   box-shadow: var(--box-shadow);
 }
+.project-description {
+  padding: 100px 0 40px 0;
+}
+p {
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 10px 0 10px 0;
+  flex: 1;
+  color: var(--primary-color);
+}
+
+.p-text {
+  text-indent: 40px;
+}
+img {
+  box-shadow: var(--box-shadow);
+}
+
+.app {
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.button-launch {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.button-launch:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
 #contact {
   background: var(--primary-color);
   color: white;
@@ -54,4 +97,12 @@ h3 {
   background: white;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 60px;
+  }
+  .project-description {
+    padding: 0;
+  }
 }
