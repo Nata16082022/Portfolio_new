@@ -25,13 +25,13 @@ h3 {
 h5 {
   text-align: center;
   color: var(--primary-color);
-  font-size: 30px;
+  font-size: 36px;
   margin-top: 10px;
 }
 
 p {
   padding: 0;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   text-align: justify;
   margin: 10px 0 10px 0;
@@ -89,7 +89,6 @@ img {
   box-shadow: var(--box-shadow);
   color: white;
 }
-
 .button-launch:hover {
   background: var(--primary-color);
   color: white;
