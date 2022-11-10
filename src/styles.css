@@ -28,6 +28,13 @@ h5 {
   font-size: 36px;
   margin-top: 10px;
 }
+h4 {
+  text-align: left;
+  color: var(--primary-color);
+  font-size: 36px;
+  margin-top: 40px;
+  padding-left: 200px;
+}
 
 p {
   padding: 0;
@@ -72,6 +79,10 @@ img {
 .p-text {
   text-indent: 40px;
 }
+.contact-text {
+  text-indent: 40px;
+  padding-left: 160px;
+}
 
 .app {
   display: flex;
@@ -101,6 +112,17 @@ img {
   font-size: 28px;
   text-decoration: none;
 }
+.contact-email {
+  color: var(--primary-color);
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+.contact-email:hover {
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
 
 .contact {
   margin-top: 30px;
@@ -111,7 +133,7 @@ img {
   color: #7e4a35;
   font-size: 60px;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 #contact {
@@ -130,6 +152,11 @@ img {
 @media (max-width: 991px) {
   h1 {
     font-size: 60px;
+  }
+  h4,
+  .contact-text {
+    text-align: center !important;
+    padding: 0;
   }
   .text-start {
     text-align: center !important;
