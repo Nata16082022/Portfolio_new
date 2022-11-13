@@ -121,7 +121,8 @@ img {
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
-.contact-email:hover {
+.contact-email:hover,
+.email:hover {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: underline;
@@ -131,12 +132,20 @@ img {
   margin-top: 30px;
 }
 
-.icon {
+.icon-block {
   display: flex;
-  color: #7e4a35;
-  font-size: 60px;
   justify-content: space-evenly;
   margin-top: 60px;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 60px;
+  transition: all 300ms ease-in-out;
+}
+.icon:hover {
+  color: var(--primary-color);
+  transform: scale(1.5);
 }
 
 #contact {
