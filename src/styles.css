@@ -147,7 +147,13 @@ img {
   color: var(--primary-color);
   transform: scale(1.5);
 }
-
+.developer {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 30px auto 5px auto;
+  text-indent: 0;
+}
 #contact {
   background: var(--primary-color);
   color: white;
